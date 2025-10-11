@@ -1,20 +1,30 @@
-<h1 align="center">Hi 👋, I'm Rahul Mamgain</h1>
-<h3 align="center">🚀 Software Developer | Java Enthusiast | Lifelong Learner</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?color=%2336BCF7&size=28&center=true&vCenter=true&lines=Software+Developer;Spring+Boot+Developer;Java+%7C+Spring+%7C+SQL+Lover;Power+Platform+%7C+Dynamics+365;Always+learning+with+Anime!+⚡" alt="Typing SVG" />
-</p>
-
-```java
+/**
+ * Hi 👋, I'm Rahul Mamgain
+ * Software Developer | Java Enthusiast | Lifelong Learner
+ *
+ * Links (clickable in README above):
+ * - Email: mailto:rahulmamgain269@gmail.com
+ * - LinkedIn: https://www.linkedin.com/in/rahulmamgainmca/
+ * - LeetCode: https://leetcode.com/u/rahulmamgain/
+ * - GeeksforGeeks: https://www.geeksforgeeks.org/user/mamgai1g2q/
+ * - HackerRank: https://www.hackerrank.com/dashboard
+ * - Portfolio: https://v0-javascript-portfolio-navy.vercel.app/
+ *
+ * Focus: Java, Spring Boot, SQL, JavaScript
+ * Platforms: Dynamics 365 CRM, Power Platform
+ * Fun: Anime & Manga
+ */
 public final class RahulMamgain {
 
-    public static final String PORTFOLIO = <a href="mailto:rahulmamgain269@gmail.com" target="_blank">📫 Email</a> <br>;
-    public static final String EMAIL = <a href="mailto:rahulmamgain269@gmail.com" target="_blank">📫 Email</a> <br>;
-    public static final String LINKEDIN = <a href="https://www.linkedin.com/in/rahulmamgainmca/" target="_blank">💼 LinkedIn</a> <br>;
-    public static final String LEETCODE =  <a href="https://leetcode.com/u/rahulmamgain/" target="_blank">🧩 LeetCode</a> <br>;
-    public static final String GEEKSFORGEEKS = <a href="https://www.geeksforgeeks.org/user/mamgai1g2q/" target="_blank">🧠 GeeksforGeeks</a> <br>;
-    public static final String HACKERRANK =<a href="https://www.hackerrank.com/dashboard" target="_blank">🏆 HackerRank</a>;
+    // ===== Links as plain strings (for console display) =====
+    public static final String EMAIL = "mailto:rahulmamgain269@gmail.com";
+    public static final String LINKEDIN = "https://www.linkedin.com/in/rahulmamgainmca/";
+    public static final String LEETCODE = "https://leetcode.com/u/rahulmamgain/";
+    public static final String GEEKSFORGEEKS = "https://www.geeksforgeeks.org/user/mamgai1g2q/";
+    public static final String HACKERRANK = "https://www.hackerrank.com/dashboard";
+    public static final String PORTFOLIO = "https://v0-javascript-portfolio-navy.vercel.app/";
 
+    // ===== Skills =====
     private static final String[] LANGUAGES = {
         "Java", "JavaScript (Basic)", "C# (Basic)", "SQL", "HTML"
     };
@@ -28,7 +38,7 @@ public final class RahulMamgain {
     };
 
     private static final String[] TOOLS = {
-        "Git/GitHub", "Postman", "Swagger", "Linux", "CI/CD", 
+        "Git/GitHub", "Postman", "Swagger", "Linux", "CI/CD",
         "IntelliJ IDEA", "VS Code", "Cursor AI", "GitHub Copilot"
     };
 
@@ -40,12 +50,23 @@ public final class RahulMamgain {
         "ChatGPT", "Gemini API"
     };
 
+    // ===== Learning tracks =====
+    private static final String[] CURRENTLY_LEARNING = {
+        "JavaScript fundamentals", "Data Structures & Algorithms"
+    };
+
+    private static final String[] DSA_TOPICS = {
+        "Arrays", "Strings", "HashMaps/Sets", "Heaps", "Sliding Window"
+    };
+
     private RahulMamgain() {}
 
     public static void main(String[] args) {
         banner();
         links();
+        learning();
         skills();
+        javaFocusSnippet();
         funFact();
     }
 
@@ -55,16 +76,25 @@ public final class RahulMamgain {
         println("   Software Developer | Java | Spring Boot | SQL");
         println("   Exploring Power Platform & Cloud | Anime Lover ⚡");
         println("==============================================");
+        println("");
     }
 
     private static void links() {
         println("🔗 Connect with me:");
-        println("  📫 Email: " + EMAIL);
-        println("  💼 LinkedIn: " + LINKEDIN);
-        println("  💻 Portfolio: " + PORTFOLIO);
-        println("  🧩 LeetCode: " + LEETCODE);
-        println("  🧠 GeeksforGeeks: " + GEEKSFORGEEKS);
+        println("  📫 Email     : " + EMAIL);
+        println("  💼 LinkedIn  : " + LINKEDIN);
+        println("  🧩 LeetCode  : " + LEETCODE);
+        println("  🧠 GfG       : " + GEEKSFORGEEKS);
         println("  🏆 HackerRank: " + HACKERRANK);
+        println("  🌐 Portfolio : " + PORTFOLIO);
+        println("");
+    }
+
+    private static void learning() {
+        println("🌱 Currently learning:");
+        for (String s : CURRENTLY_LEARNING) println("  • " + s);
+        println("🧠 DSA focus:");
+        for (String s : DSA_TOPICS) println("  • " + s);
         println("");
     }
 
@@ -77,11 +107,24 @@ public final class RahulMamgain {
         section("🤖 AI Tools", AI_TOOLS);
     }
 
-    private static void funFact() {
+    private static void javaFocusSnippet() {
+        println("---- Java Focus Snippet ----");
+        println("@org.springframework.web.bind.annotation.RestController");
+        println("class HelloController {");
+        println("    @org.springframework.web.bind.annotation.GetMapping(\"/api/v1/hello\")");
+        println("    public java.util.Map<String, Object> hello() {");
+        println("        return java.util.Map.of(\"message\", \"Hello from Spring Boot\", \"stack\", \"Java\");");
+        println("    }");
+        println("}");
+        println("----------------------------");
         println("");
-        println("⚡ Fun Fact: I find design patterns and anime arcs strangely similar — both teach structure, pacing, and patience!");
     }
 
+    private static void funFact() {
+        println("⚡ Fun Fact: Design patterns and anime arcs both teach structure, pacing, and patience!");
+    }
+
+    // ===== helpers =====
     private static void section(String title, String[] items) {
         println(title + ":");
         for (String i : items) println("  • " + i);
