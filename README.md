@@ -66,3 +66,14 @@ public final class RahulMamgain {
         System.out.println(s);
     }
 }
+
+<h3 align="left">🌐 Connect with me:</h3>
+<p align="left">
+  <a href="https://v0-javascript-portfolio-navy.vercel.app/" target="_blank">🔗 Portfolio</a> <br>
+  <a href="mailto:rahulmamgain269@gmail.com" target="_blank">📫 Email</a> <br>
+  <a href="https://www.linkedin.com/in/rahulmamgainmca/" target="_blank">💼 LinkedIn</a> <br>
+  <a href="https://leetcode.com/u/rahulmamgain/" target="_blank">🧩 LeetCode</a> <br>
+  <a href="https://www.geeksforgeeks.org/user/mamgai1g2q/" target="_blank">🧠 GeeksforGeeks</a> <br>
+  <a href="https://www.hackerrank.com/dashboard" target="_blank">🏆 HackerRank</a>
+</p>
+
