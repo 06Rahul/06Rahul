@@ -8,12 +8,12 @@
 ```java
 public final class RahulMamgain {
 
-    public static final String PORTFOLIO = "https://v0-javascript-portfolio-navy.vercel.app/";
-    public static final String EMAIL = "mailto:rahulmamgain269@gmail.com";
-    public static final String LINKEDIN = "https://www.linkedin.com/in/rahulmamgainmca/";
-    public static final String LEETCODE = "https://leetcode.com/u/rahulmamgain/";
-    public static final String GEEKSFORGEEKS = "https://www.geeksforgeeks.org/user/mamgai1g2q/";
-    public static final String HACKERRANK = "https://www.hackerrank.com/dashboard";
+    public static final String PORTFOLIO = <a href="mailto:rahulmamgain269@gmail.com" target="_blank">📫 Email</a> <br>;
+    public static final String EMAIL = <a href="mailto:rahulmamgain269@gmail.com" target="_blank">📫 Email</a> <br>;
+    public static final String LINKEDIN = <a href="https://www.linkedin.com/in/rahulmamgainmca/" target="_blank">💼 LinkedIn</a> <br>;
+    public static final String LEETCODE =  <a href="https://leetcode.com/u/rahulmamgain/" target="_blank">🧩 LeetCode</a> <br>;
+    public static final String GEEKSFORGEEKS = <a href="https://www.geeksforgeeks.org/user/mamgai1g2q/" target="_blank">🧠 GeeksforGeeks</a> <br>;
+    public static final String HACKERRANK =<a href="https://www.hackerrank.com/dashboard" target="_blank">🏆 HackerRank</a>;
 
     private static final String[] LANGUAGES = {
         "Java", "JavaScript (Basic)", "C# (Basic)", "SQL", "HTML"
