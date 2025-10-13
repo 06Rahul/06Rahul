@@ -49,11 +49,6 @@ public class SoftwareEngineer {
         System.out.println("\n🌱 Currently learning: " + String.join(", ", learning));
         System.out.println("💬 Ask me about: " + String.join(", ", techStack));
         System.out.println("⚡ Fun fact: I love " + String.join(" & ", interests) + "!");
-        System.out.println("\n📫 Reach me at: rahulmamgain269@gmail.com");
-        System.out.println("🌐 Portfolio: https://v0-javascript-portfolio-navy.vercel.app/");
-        System.out.println("💻 LinkedIn: https://www.linkedin.com/in/rahulmamgainmca/");
-        System.out.println("🧠 LeetCode: https://leetcode.com/u/rahulmamgain/");
-        System.out.println("🧩 GeeksforGeeks: https://auth.geeksforgeeks.org/user/mamgai1g2q/");
         System.out.println("\nThanks for visiting! Keep coding and growing ✨");
     }
 
