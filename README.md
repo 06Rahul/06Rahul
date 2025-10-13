@@ -21,19 +21,6 @@
 ---
 
 ```java
-/**
- * @author Rahul
- * @version 1.0
- * 🚀 A passionate Software Developer & Lifelong Learner
- */
-
-/**
- * @author Rahul
- * @version 2.0
- * 🚀 Software Developer | Java & Spring Boot Specialist
- * 💡 Exploring AI, Cloud, and Enterprise Solutions
- */
-
 public class SoftwareEngineer {
 
     private final String name;
