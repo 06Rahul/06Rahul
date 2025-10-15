@@ -73,15 +73,15 @@ public class SoftwareEngineer {
     }
 
     public void introduce() {
-        System.out.println("👋 Hi, I'm " + name);
-        System.out.println("🚀 A passionate " + role + " & lifelong learner");
+        System.out.println("Hi, I'm " + name);
+        System.out.println("A passionate " + role + " & lifelong learner");
 
-        System.out.println("💻 Tech Stack: " + String.join(", ", techStack));
-        System.out.println("🧩 Frameworks: " + String.join(", ", frameworks));
-        System.out.println("☁️ Cloud & Tools: " + String.join(", ", cloudAndTools));
-        System.out.println("🤖 AI & Automation: " + String.join(", ", aiAndAutomation));
-        System.out.println("🌱 Currently learning: " + String.join(", ", learning));
-        System.out.println("⚡ Fun fact: I recharge my brain with " + String.join(" & ", interests) + "!");
+        System.out.println("Tech Stack: " + String.join(", ", techStack));
+        System.out.println("Frameworks: " + String.join(", ", frameworks));
+        System.out.println("Cloud & Tools: " + String.join(", ", cloudAndTools));
+        System.out.println("AI & Automation: " + String.join(", ", aiAndAutomation));
+        System.out.println("Currently learning: " + String.join(", ", learning));
+        System.out.println("Fun fact: I recharge my brain with " + String.join(" & ", interests) + "!");
 
         System.out.println("Keep coding, keep exploring, keep evolving!");
     }
