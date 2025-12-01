@@ -30,7 +30,7 @@
 ---
 
 ```java
-public class SoftwareEngineer {
+public class SoftwareDeveloper {
 
     private final String name;
     private final String role;
