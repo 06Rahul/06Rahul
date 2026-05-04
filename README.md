@@ -223,7 +223,7 @@ public class RahulMamgain extends SoftwareDeveloper implements Innovator {
 
 ## 💡 What I'm Learning
 
-<div align="center">
+<!--<div align="center">
 
 | 📚 Topic | 📈 Progress | 🎯 Goal |
 |---------|-----------|--------|
@@ -232,7 +232,7 @@ public class RahulMamgain extends SoftwareDeveloper implements Innovator {
 | Microservices | ![](https://geps.dev/progress/70) | Build production-ready apps |
 | Cloud (Azure) | ![](https://geps.dev/progress/50) | Deploy & manage cloud apps |
 
-</div>
+</div> -->
 
 ---
 
@@ -242,7 +242,6 @@ public class RahulMamgain extends SoftwareDeveloper implements Innovator {
 
 ```javascript
 const rahul = {
-    pronouns: "He/Him",
     code: ["Java", "JavaScript", "SQL"],
     askMeAbout: ["Spring Boot", "DSA", "Microservices", "Anime recommendations"],
     technologies: {
@@ -261,17 +260,6 @@ const rahul = {
 ---
 
 ## 📫 Let's Connect!
-
-<div align="center">
-
-**Open for collaborations, opportunities, and tech discussions!**
-
-💼 Looking for **Backend Development** roles  
-🌱 Contributing to **Open Source**  
-📝 Occasional **Tech Blogger**  
-🎯 Building projects that make a difference
-
-<br>
 
 <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="1000">
 
