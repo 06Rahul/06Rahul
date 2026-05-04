@@ -209,29 +209,6 @@ public class RahulMamgain extends SoftwareDeveloper implements Innovator {
 
 ---
 
-## 🎯 Current Focus
-
-```mermaid
-mindmap
-  root((Rahul's Journey))
-    Backend Development
-      Spring Boot Mastery
-      Microservices
-      RESTful APIs
-    Problem Solving
-      DSA Practice
-      LeetCode
-      System Design
-    Learning Path
-      Cloud Architecture
-      CI/CD Pipelines
-      Design Patterns
-    Side Quests
-      Open Source
-      Tech Blogging
-      Anime & Manga
-```
-
 ---
 
 ## 🏆 Achievements & Certifications
