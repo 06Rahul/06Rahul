@@ -267,7 +267,6 @@ const rahul = {
 
 <br>
 
-![Visitor Count](https://profile-counter.glitch.me/rahulmamgain/count.svg)
 
 ---
 
